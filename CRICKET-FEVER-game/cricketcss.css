@@ -1,0 +1,46 @@
+
+body{
+    background-color: rgb(41, 41, 41);
+    color: blanchedalmond;
+    font-family: 'Righteous', cursive;
+}
+.gamename{
+    font-size: 70px;
+    color: rgb(49, 47, 47);
+    text-align: center;
+    padding: 60px;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255,255,255,0.8)), url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+    border-radius: 25px;
+}
+input{
+     display: inline;
+     margin-left: 20px;
+}
+button{
+    background-color: white;
+    border: 5px solid blanchedalmond;
+    margin-left: 20px;
+    padding:0px 20px 0px 20px;
+    border-radius: 20px;
+}
+.stripe{
+    text-align: center; 
+}
+.status{
+    text-align: center;
+}
+ul{
+  list-style: none;  
+}
+li{
+    text-align: center;
+}
+.scorecard h1{    
+    display:inline-block;
+    margin:30px;
+}
+.scorecard{
+    text-align: center;
+}

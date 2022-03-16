@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cricket Fever</title>
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cricketcss.css">
+</head>
+<body>
+    <h1 class="gamename">Cricket Fever  2020</h1>
+    <div class="stripe">
+        
+        
+            <input type="number" style="border-radius: 20px;" placeholder="Number of Overs" id="overs">
+            <input type="radio"  name="Toss" value="Batting">Batting
+            <input type="radio"  name="Toss" value="Bowling">Bowling
+            <button id="start">Start</button>
+    
+    </div>
+    <div class="status">
+        <h2 >You are <span id="borb"></span></h2>
+        <h2 class="status"> Balls : <span id="balls">1</span> of <span id="ofballs"></span></h2>
+    </div>
+    <div>
+        <ul id="live">
+            <li><button value="1" name="match" onclick="myFunction(this.value)">ONE</button></li>
+            <li><button value="2" name="match" onclick="myFunction(this.value)">TWO</button></li>
+            <li><button value="3" name="match" onclick="myFunction(this.value)">THREE</button></li>
+            <li><button value="4" name="match" onclick="myFunction(this.value)">FOUR</button></li>
+            <li><button value="5" name="match" onclick="myFunction(this.value)">FIVE</button></li>
+            <li><button value="6" name="match" onclick="myFunction(this.value)">SIX</button></li>
+        </ul>
+    </div>
+    <div class="scorecard">
+        <h1>Your Score : <span id="yourscore"></span></h1>
+        <h1 >Bot Score : <span id="Botscore"></span></h1>
+    </div>
+    <h1 id="result"></h1>
+ 
+   
+    
+
+
+<script src="cricketjs.js"></script>
+</body>
+
+</html>
